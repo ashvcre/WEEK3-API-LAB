@@ -21,7 +21,7 @@ Documentation for Week3-API-Lab
    able to test the endpoints in Postman:
    
    # Register a user
-     1. Set the request type to POST an enter the URL: http://lcalhost:3000/api/register
+     1. Set the request type to POST an enter the URL: http://localhost:3000/api/register
      2. Go to Body -> select raw -> change the text to JSON and enter:
         
           {
@@ -36,7 +36,7 @@ Documentation for Week3-API-Lab
           }
         
    # Login user
-     1. Set the request type to POST an enter the URL: http://lcalhost:3000/api/login
+     1. Set the request type to POST an enter the URL: http://localhost:3000/api/login
      2. Go to Body -> select raw -> change the text to JSON and enter:
         
           {
@@ -51,7 +51,7 @@ Documentation for Week3-API-Lab
           }
         
    # Access Protected Route
-     1. Set the request type to GET an enter the URL: http://lcalhost:3000/api/protected
+     1. Set the request type to GET an enter the URL: http://localhost:3000/api/protected
      2. Go to Headers and enter 'Authorization' for Key and 'Bearer your_jwt_token' for value
      3. click SEND and you will get a response like:
         
